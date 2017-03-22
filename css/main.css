@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     top: 0;
     z-index: 11;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(0, 0, 0, 0.09);
 }
 
 #slitSlider .carousel-caption a {
@@ -307,6 +307,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     line-height: 26px;
     padding: 20px 15px;
+    padding-bottom: 2px;
 
 	-webkit-transition: background .5s ease-in-out 0s;
 	   -moz-transition: background .5s ease-in-out 0s;
@@ -317,8 +318,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #6f6f6f;
 }
 .navbar-inverse .navbar-nav > li.current > a {
-    color: #20c0e8;
-    background-color: #f3f3f3;
+    color: #ffffff;
+    border-bottom: 4px solid #20c0e8;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
