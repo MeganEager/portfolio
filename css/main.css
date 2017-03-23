@@ -883,13 +883,13 @@ h1, h2, h3, h4, h5, h6 {
 	Testimonial section
 ==================================================================*/
 
-#testimonial {
+#test {
     background-image: url(../img/parallax/audience-dark.png);
     padding: 70px 0;
     color: #ffffff;
 }
 
-#testimonials .owl-wrapper-outer {
+#test .owl-wrapper-outer {
   top: -25px;
 }
 
