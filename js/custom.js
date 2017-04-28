@@ -25,7 +25,7 @@ jQuery(function ($) { "use strict";
 		cursorborderradius: 0,
 		cursorwidth: "8px",
 		cursorfixedheight: 150,
-		cursorcolor: "#82ffe2",
+		cursorcolor: "#ff7fc1",
 		zindex: 9999,
 		cursorborder: 0,
 	});
@@ -142,15 +142,14 @@ jQuery(function ($) { "use strict";
 		count.initialize();
 	})();
 
-
-	/* ========================================================================= */
-	/*	Skills Chart
+    /* ========================================================================= */
+	/*	Skills Chart - our skills
 	/* ========================================================================= */
 
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
-			barColor: "#82ffe2",
+			barColor: "#ff7fc1",
 			size: "150",
 			lineWidth: 15,
 			animate: 2e3,
