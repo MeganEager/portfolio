@@ -335,14 +335,20 @@ h1, h2, h3, h4, h5, h6 {
     padding: 70px 0;
 }
 
+.aboutUsImg{
+    width:100%;
+}
+
+/*
+
 .icon-box {
-	position: relative;
+	poxsition: relative;
 	width: 160px; 
 	height: 92.38px;
 	background-color: transparent;
 	margin: 46.19px auto 60px;
 	padding: 20px 0;
-	
+
 	-webkit-transform: translateZ(0px);
 	   -moz-transform: translateZ(0px);
 		-ms-transform: translateZ(0px);
@@ -432,6 +438,7 @@ h1, h2, h3, h4, h5, h6 {
     border-left: solid 3px #82ffe2;
 }
 
+*/
 /*=================================================================
 	Our Benefits
 ==================================================================*/
@@ -500,12 +507,18 @@ h1, h2, h3, h4, h5, h6 {
 /*}*/
 
 .servicesInfoBlock{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .service-block {
     padding: 50px 20px;
     margin-bottom: 40px;
+}
+.serviceHeading{
+    margin-top: 0;
+}
+.servicesText{
+    padding-right: 5%;
 }
 .service-icon {
     margin-bottom: 40px;
@@ -515,8 +528,6 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 }
 
-
-/*IDEA ONE*/
 .serviceTab{
     cursor: pointer;
     padding-bottom: 1%;
@@ -536,6 +547,12 @@ h1, h2, h3, h4, h5, h6 {
 #contentServiceTab{
     border-bottom: 2px solid #82ffe2;
 }
+
+.serviceTabText{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 #visuals{
 	display: none;
 }
@@ -552,27 +569,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+/*=================================================================
+	Quote section
+==================================================================*/
+.quoteText{
+    color: white;
+    text-align: center;
+}
 
-
-/*IDEA TWO*/
-.serviceLayout{
-    padding-bottom: 10%;
-}
-#webService{
-    border-bottom: 1px solid #c9ff82;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-#visualService{
-    border-bottom: 1px solid #ff9d82;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-#contentServices{
-    border-bottom: 1px solid #82ffe2;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
 
 
 /*=================================================================
@@ -778,6 +782,14 @@ h1, h2, h3, h4, h5, h6 {
     content: '%';
     margin-left: .1em;
     font-size: .8em;
+}
+
+
+.skillsHeadings{
+    text-align:center;
+}
+.progress-bar-web{
+    background-color: #c9ff82;
 }
 
 

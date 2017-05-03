@@ -90,7 +90,7 @@
 
 .og-close:hover::before,
 .og-close:hover::after {
-	background: #fff;
+	background: #ff7fc1;
 }
 
 .og-fullimg,
